@@ -1,7 +1,7 @@
-export class Project {
+export default class Project {
 
     constructor(name) { 
-        this.name = name; ù
+        this.name = name;
         this.todolist = [];
     }
 

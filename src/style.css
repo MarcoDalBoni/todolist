@@ -1,11 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
 }
 
-#content {
+div {
     border: 1px solid grey;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
+    background-color: black;
 }
