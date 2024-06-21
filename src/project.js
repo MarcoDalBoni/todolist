@@ -12,4 +12,6 @@ export default class Project {
     addTodo = (todo) => { this.todolist.push(todo); }
 
     removeTodo = (title) => { this.todolist = this.todolist.filter(todo => todo.title != title); }
+    
+    getTodos = () => { return this.todolist; }
 }

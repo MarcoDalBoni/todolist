@@ -28,10 +28,16 @@ const defaultStep3 = new Todo(
 const defaultProject = new Project('Default');
 defaultProject.addTodo(defaultStep1);
 defaultProject.addTodo(defaultStep2);
-defaultProject.addTodo(defaultStep2);
+defaultProject.addTodo(defaultStep3);
+
+const defaultProject2 = new Project('Default2');
+defaultProject2.addTodo(defaultStep1);
+defaultProject2.addTodo(defaultStep2);
+defaultProject2.addTodo(defaultStep3);
 
 const projects = [
     defaultProject,
+    defaultProject2
 ];
 
 const getProjects = () => {

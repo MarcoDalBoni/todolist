@@ -31,5 +31,8 @@ export default class Todo {
 
     setDone = () => { this._done = true; }
 
-    printShort = () => { return `${this.title}: due to ${this.dueDate}`; }
+    printShort = () => { 
+        return `${this.title}: due to 
+        ${this.dueDate.getFullYear()}/${this.dueDate.getMonth()}/${this.dueDate.getDate()}`; 
+    }
 }
