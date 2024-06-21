@@ -32,3 +32,25 @@ button {
     padding: 8px;
     cursor: pointer;
 }
+
+#todos {
+    border: 2px solid black;
+    width: 300px;
+}
+
+.todo-div {
+    padding: 3px 0px;
+    font-size: 20px;
+}
+
+.high {
+    background-color: red;
+}
+
+.normal {
+    background-color: yellow;
+}
+
+.low {
+    background-color: greenyellow;
+}

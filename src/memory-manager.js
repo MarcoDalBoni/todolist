@@ -33,7 +33,6 @@ defaultProject.addTodo(defaultStep3);
 const defaultProject2 = new Project('Default2');
 defaultProject2.addTodo(defaultStep1);
 defaultProject2.addTodo(defaultStep2);
-defaultProject2.addTodo(defaultStep3);
 
 const projects = [
     defaultProject,
