@@ -1,4 +1,5 @@
 import { getProjects } from "./memory-manager";
+import './style.css'
 
 const content = document.getElementById('content');
 

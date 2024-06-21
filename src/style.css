@@ -1,6 +1,5 @@
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px;
@@ -9,8 +8,10 @@ body {
 }
 
 div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
     border: 1px solid grey;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px black;
-    background-color: black;
+    box-shadow: 5px 5px 10px black;
 }
