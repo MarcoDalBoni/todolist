@@ -28,11 +28,7 @@ export class Todo {
 
     get done() { return this._done; }
 
-    setDone = () => {
-        this._done = true;
-    }
+    setDone = () => { this._done = true; }
 
-    printShort = () => {
-        return `${this.title}: due to ${this.dueDate}`;
-    }
+    printShort = () => { return `${this.title}: due to ${this.dueDate}`; }
 }
